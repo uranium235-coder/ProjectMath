@@ -1,1 +1,30 @@
-hello
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Genus Math</title>
+
+  <!-- MathJax Configuration -->
+  <script>
+    window.MathJax = {
+      tex: {
+        inlineMath: [['$', '$'], ['\\(', '\\)']],  // Inline equations
+        displayMath: [['$$', '$$'], ['\\[', '\\]']] // Block equations
+      },
+      svg: { fontCache: 'global' } // Optimization
+    };
+  </script>
+
+  <!-- Load MathJax -->
+  <script src="MathJax/tex-mml-chtml.js"></script>
+
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+  <h1 id="web_heading">Genus Math</h1>
+  <h1 id="web_heading_math">
+    $$e^{i \pi} + 1 = 0$$
+  </h1>
+</body>
+</html>
